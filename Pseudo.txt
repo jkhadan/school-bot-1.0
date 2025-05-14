@@ -1,0 +1,20 @@
+
+
+# Pseudo Code
+
+# Create a function that loops through every 50 minutes (because a period is 50 minutes) and refer to the corresponding
+# Dictionary which references the users id with their corresponding classes in a list
+# Depending on which iteration we are in the async function loop, we refer to whichever class the person is in
+
+# Commands to be implemented:
+# $set <period #> <class>
+# $time - returns the amount of time left in the class
+# $hwadd adds homework under the class the user is currently in
+# $hwclear
+
+# Warning event to send message when the class is halfway through OR when 5 minute is left. Also to alert when the next
+# class has started and ended
+# possibly a way to turn off these notifications by referring to another list which the user would automatically be
+# added to already when they register
+# I may need a register command to register a user to the dictionary
+
